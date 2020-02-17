@@ -1,0 +1,12 @@
+#![enable(implicit_some)]
+
+Prefab(
+    entities: [
+        PrefabEntity(
+            data: Actor(
+                actor: Named(name: "Player"),
+                position: Position(1.0, 2.0, 3.0),
+            ),
+        ),
+    ],
+)
